@@ -1,0 +1,36 @@
+{
+  "name": "webAb",
+  "authors": [
+    "Ajeeb Kalathingalthodi"
+  ],
+  "description": "Ajeeb Portfolio Web site",
+  "main": "index.html",
+  "keywords": [
+    "ajeeb",
+    "kalathingalthodi",
+    "UI",
+    "developer",
+    "Front",
+    "end",
+    "Developer",
+    "Designer",
+    "Developer"
+  ],
+  "license": "MIT",
+  "homepage": "ajeebkt.me",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-material-design": "^0.5.9",
+    "font-awesome": "fontawesome#^4.6.1",
+    "jquery": "^2.2.3",
+    "bootstrap-sass": "^3.3.6",
+    "bootstrap": "^3.3.6",
+    "mdi": "^1.5.54"
+  }
+}
