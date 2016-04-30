@@ -31,7 +31,8 @@ var paths = {
 gulp.task('icons', function() {
     return gulp.src([
         paths.bowerDir + '/bootstrap-sass/assets/fonts/bootstrap/**.*',
-        paths.bowerDir + '/font-awesome/fonts/**.*'
+        paths.bowerDir + '/font-awesome/fonts/**.*',
+        // paths.bowerDir + '/mdi/fonts/**.*'
       ])
       .pipe(gulp.dest(paths.rootDir + '/fonts'));
 });
